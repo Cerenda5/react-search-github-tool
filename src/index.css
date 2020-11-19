@@ -1,0 +1,76 @@
+.header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #1d1d1d;
+}
+
+.inner_header {
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container h1 {
+  color: aliceblue;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.card-user {
+  justify-content: center;
+  margin-left: 4em;
+  margin-right: 4em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.card {
+  display: grid;
+  border-radius: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  text-align: center;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  background-color: aliceblue;
+}
+
+.row {
+  margin: 0 -5px;
+  text-align: center;
+  display: inline !important;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+input {
+  border-style: dotted;
+  cursor: pointer;
+  color: #00b1ca;
+  font-weight: bold;
+  outline: 3px solid transparent;
+  padding: 10px;
+  margin-right: 4em;
+  width: 100%;
+  text-align: center;
+}
